@@ -280,12 +280,13 @@ button {
 }
 .container-strategy{
     display: flex;
-    width:auto;
+    width: 80rem;
     border: 1px solid grey;
-    flex-flow: row wrap;
-    margin: -1% -3%;
-   justify-content: center;
-   flex-wrap:wrap;
+    /* flex-flow: row wrap; */
+    margin: 0 auto;
+   /* justify-content: center; */
+   /* flex-wrap:wrap; */
+   
 }
 
 .Strategyleft, h1, button, p{
@@ -307,6 +308,3 @@ button {
 /*Bottom Section-Lets Work Together*/
 
 /*image container banner*/
-.image-container{
-    background-image: url('img/jumbo-about.png');
-}

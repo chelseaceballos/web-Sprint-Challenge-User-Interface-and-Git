@@ -254,6 +254,8 @@ header{
 }
 */
 
+
+
 /*ABOUT SECTION ABOUT SECTION ABOUT SECTION*/
 button {
     border: 2px solid black;
@@ -272,4 +274,12 @@ button {
     margin-top: 2%;
     font-size: 20px;
     padding: 1% 2%;
+}
+.container-strategy{
+    display: flex;
+    width:70;
+    border: 1px solid grey;
+    flex-flow: row wrap;
+    align-content: space-around;
+
 }

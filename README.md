@@ -42,16 +42,16 @@ Semantic HTML is the correct use of HTML. By typing HTML correctly it is more st
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Display: block; forces line break after the block element. cannot have any other html elements next to it on the page
-Display: inline; Allows other elements to sit to its left and/or right, acts like a block element
+    Display: block; forces line break after the block element. cannot have any other html elements next to it on the page
+    Display: inline; Allows other elements to sit to its left and/or right, acts like a block element
 
 3. What are the 4 areas of the box model?
 
-Margin, border, padding, and content
+    Margin, border, padding, and content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-It would work on the cross axis or the vertical axis.
+       It would work on the cross axis or the vertical axis.
 
 5. Explain why git is valuable to a team of developers.
 Git tracks changes and updates you have made to the project. Therefore, everyone on the team will be working on the latest version of the project. It can help you revert to a specefic version that you may have pushed in the past. It is also helpful because of the merge tool that allows collaborators to merge 2 or more projects. 
@@ -80,8 +80,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x ] Build the HTML and CSS to create the missing navigation and header.
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 

@@ -265,3 +265,11 @@ button {
     font-weight: bold;
     margin: 1%;
 }
+
+.about{
+    border: 1px solid grey;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 20px;
+    padding: 1% 2%;
+}

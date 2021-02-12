@@ -84,7 +84,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/*BOXES MIDDLE CONTENT*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -101,6 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -112,6 +113,10 @@ p {
     justify-content: center;
 }
 
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black; 
+/*BOTTOM CONTENT*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -183,11 +188,12 @@ header{
 
 /*header banner*/
 
-.jumbo{
+/*.jumbo{
     background-image: url('img/jumbo.jpg');
-    /*height: 20vh;
+    height: 20vh;
     margin: 20px;
     background-size: cover;
-    width: 95%;*/
+    width: 95%;
 }
 */
+

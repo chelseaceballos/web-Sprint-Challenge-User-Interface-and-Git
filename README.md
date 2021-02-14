@@ -18,7 +18,9 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Description
 
-In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and create an additional page (About) which will link from the navigation you created.
+[] In this challenge, you build a missing header (navigation and image) on the home page, 
+[ ]update some CSS styling on the home page,
+[ ] and create an additional page (About) which will link from the navigation you created.
 
 In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages (found in the design-files folder):
 
@@ -35,27 +37,38 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the correct use of HTML. By typing HTML correctly it is more structurally clear to yourself, the computer, and to maybe even someone who has a visual disability(screen readers). Having a well structured project will make it easier to read and lock in key details such as the h1 of the project.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Display: block; forces line break after the block element. cannot have any other html elements next to it on the page
+    Display: inline; Allows other elements to sit to its left and/or right, acts like a block element
 
 3. What are the 4 areas of the box model?
 
+    Margin, border, padding, and content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+       It would work on the cross axis or the vertical axis.
+
 5. Explain why git is valuable to a team of developers.
+Git tracks changes and updates you have made to the project. Therefore, everyone on the team will be working on the latest version of the project. It can help you revert to a specefic version that you may have pushed in the past. It is also helpful because of the merge tool that allows collaborators to merge 2 or more projects. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [ x] Create a forked copy of this project.
+- [ x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [ x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
@@ -67,8 +80,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x ] Build the HTML and CSS to create the missing navigation and header.
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
@@ -87,9 +100,9 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
+* [ x] Copy and paste your home page navigation and header into the about page
 * [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
+* [ x] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
